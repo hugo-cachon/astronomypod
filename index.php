@@ -54,10 +54,10 @@ $url = $data['url'];
     <footer class="footer">
         <nav class="links">
             <ul>
-                <li><a href="https://www.nasa.gov/">NASA</a></li>
-                <li><a href="https://api.nasa.gov/">NASA Open APIs</a></li>
-                <li><a class="red-links" href="https://www.instagram.com/astronomypicturesdaily/?hl=fr">Instagram</a></li>
-                <li><a class="red-links" href="https://www.youtube.com/user/APODVideos">Youtube</a></li>
+                <li><a href="https://www.nasa.gov/" target="_blank">NASA</a></li>
+                <li><a href="https://api.nasa.gov/" target="_blank">NASA Open APIs</a></li>
+                <li><a class="red-links" href="https://www.instagram.com/astronomypicturesdaily/?hl=fr" target="_blank">Instagram</a></li>
+                <li><a class="red-links" href="https://www.youtube.com/user/APODVideos" target="_blank">Youtube</a></li>
             </ul>
         </nav>
     </footer>
