@@ -1,0 +1,265 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+font-family: "nasalization-rg";
+src: url("nasalization-rg.ttf");
+}
+
+body {
+    background-color: #020a24;
+}
+
+h1 {
+    font-family: "nasalization-rg";
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 1em;
+    text-shadow: white 2px 5px 30px;
+}
+h2, h3 {
+    font-weight: bold;
+    font-family: "nasalization-rg";
+    color: white;
+    margin: 20px;
+    line-height: 45px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 18px;
+    margin: 20px;
+}
+#right-pannel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-data {
+    height: 575px;
+    border: 7px solid rgb(11, 61, 145);
+    margin: 20px;
+}
+p {
+    font-size: 20px;;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    color: white;
+    margin: 20px;
+    line-height: 30px;
+}
+.red-links {
+    color: rgb(252, 61, 33);
+}
+
+span {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(252, 61, 33);
+    margin: 20px;
+}
+iframe {
+    width: 500px;
+    height: auto;
+}
+
+.footer {
+    background-color: rgb(11, 61, 145);
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    color: white;
+}   
+li {
+    font-family: "nasalization-rg";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    animation-duration: 7s;
+    animation-name: data-reveal;
+}
+
+@keyframes data-reveal {
+    from {
+    opacity: 0;
+    }
+  
+    to {
+    opacity: 1;
+    }
+  }
+
+@media screen and (max-width: 1740px) {
+    #grid-container {
+        display: block;
+    }
+    .footer {
+        background-color:rgb(11, 61, 145);
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #grid-container {
+        display: block;
+    }
+    .img-data {
+        height: 500px;
+        border: 3px solid rgb(11, 61, 145);
+        margin: 20px;
+    }
+    h1 {
+        font-size: 40px ;
+        color: white; 
+}
+
+@media screen and (max-width: 790px) {
+    #grid-container {
+        display: block;
+    }
+    .img-data {
+        height: 300px;
+        border: 3px solid rgb(11, 61, 145);
+        margin: 20px;
+    }
+    h1 {
+        font-size: 40px ;
+        color: white; 
+}
+
+@media screen and (max-width: 490px) {
+    h1 {
+        font-family: "nasalization-rg";
+        font-weight: bold;
+        font-size: 35px;
+        text-align: center;
+        color: white;
+        margin: 1em;
+        text-shadow: white 2px 5px 30px;
+    }
+    h2 {
+        font-weight: bold;
+        font-family: "nasalization-rg";
+        font-size: 30px;
+        color: white;
+        margin: 20px;
+        line-height: 45px;
+    }
+    h3 {
+        font-weight: bold;
+        font-family: "nasalization-rg";
+        font-size: 25px;
+        color:  white;
+        margin: 20px;
+    }
+    p {
+        font-size: 17px;;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        color: white;
+        margin: 20px;
+        line-height: 30px;
+    }
+    #grid-container {
+        display: block;
+    }
+    .img-data {
+        height: 250px;
+        border: 3px solid rgb(11, 61, 145);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        color: rgb(252, 61, 33);
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        font-family: "nasalization-rg";
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        margin: 1em;
+        text-shadow: white 2px 5px 30px;
+    }
+    h2 {
+        font-weight: bold;
+        font-family: "nasalization-rg";
+        font-size: 25px;
+        color: white;
+        margin: 20px;
+        line-height: 45px;
+    }
+    h3 {
+        font-weight: bold;
+        font-family: "nasalization-rg";
+        font-size: 20px;
+        color:  white;
+        margin: 20px;
+    }
+    p {
+        font-size: 17px;;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+        color: white;
+        margin: 20px;
+        line-height: 30px;
+    }
+    #grid-container {
+        display: block;
+    }
+    .img-data {
+        height: 200px;
+        border: 3px solid rgb(11, 61, 145);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    span {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        color: rgb(252, 61, 33);
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}  
+}
+}
