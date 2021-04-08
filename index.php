@@ -28,7 +28,7 @@ $url = $data['url'];
 </head>
 <body>
     <header>
-        <h1>Astronomy picture of the Day</h1>
+        <h1>Astronomy Picture of the Day</h1>
     </header>
     <main>
     <div id="grid-container"> 
